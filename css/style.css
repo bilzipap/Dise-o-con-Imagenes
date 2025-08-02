@@ -1,5 +1,4 @@
 #titulo, #pie{
-    font-family:Georgia, 'Times New Roman', Times, serif;
     font-size: 30px;
     text-align: center;
     width: 800px;
@@ -24,7 +23,7 @@
     border: 1px solid;
     padding: 10px;
     display: flex;
-    gap: 100px;
+    justify-content:space-around;
 }
 
 .contenido1{
@@ -39,5 +38,4 @@
 
 img{
     height: 200px;
-    flex:2;
 }
