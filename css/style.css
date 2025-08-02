@@ -1,0 +1,48 @@
+#titulo, #pie{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    text-align: center;
+    width: 800px;
+    padding: 10px;
+}
+
+#pie{
+    background-color: aqua;
+}
+
+.contenedor{
+    height: 950px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contenido1, .contenido2, .contenido3{
+    height: 200px;
+    width: 800px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    border: 1px solid black;
+}
+
+.img1, .img2, .img3{
+    height: 200px;
+    margin-left: 15px;
+    flex:3;
+}
+
+.contenido1{
+    background-color: rgb(255, 255, 255);
+}
+
+.contenido2{
+    background-color: rgb(0, 42, 255);
+}
+
+.contenido3{
+    background-color: rgb(255, 0, 0);
+}
+
