@@ -21,28 +21,23 @@
 .contenido1, .contenido2, .contenido3{
     height: 200px;
     width: 800px;
+    border: 1px solid;
     padding: 10px;
     display: flex;
-    align-items: center;
-    flex-wrap: wrap;
-    border: 1px solid black;
-}
-
-.img1, .img2, .img3{
-    height: 200px;
-    margin-left: 15px;
-    flex:3;
+    gap: 100px;
 }
 
 .contenido1{
     background-color: rgb(255, 255, 255);
 }
-
 .contenido2{
     background-color: rgb(0, 42, 255);
 }
-
 .contenido3{
     background-color: rgb(255, 0, 0);
 }
 
+img{
+    height: 200px;
+    flex:2;
+}
